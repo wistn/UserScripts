@@ -8,7 +8,7 @@
 // @run-at       document-end
 // @grant        none
 // ==/UserScript==
-// 给多多猫插件开发者，在 Chrome DevTools 的控制台 Console 栏用，构造多多猫SiteD插件环境常用变量url html、函数print、自带库cheerio方法 print urla urlb html等。在插件源网站才手动开启本脚本，否则可能影响其他网站上同名变量
+// 给多多猫插件开发者，在 Chrome DevTools 的控制台 Console 栏用，构造多多猫SiteD插件环境常用变量url html、函数print urla、自带库cheerio Base64 md5等。在插件源网站才手动开启本脚本，否则可能影响其他网站上同名变量
 if (typeof window != 'undefined') {
     window.addEventListener('load', pageFullyLoaded);
     function pageFullyLoaded() {
